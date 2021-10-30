@@ -236,7 +236,7 @@ console.log(jonas);
 
 console.log(`${jonas.firstName} has ${jonas.friends.length}, and his best friend is called ${jonas.friends[0]}`);
 */
-
+/*
 //lecture 44
 
 const jonas = {
@@ -271,4 +271,55 @@ console.log(jonas.age);
 console.log(jonas.age);
 console.log(jonas.age);
 
-console.log(jonas.getSummary());
+console.log(jonas.getSummary());*/
+
+//coding challenge #3
+/*
+const mark = {
+  fullName: 'Mark Miller',
+  mass: 78,
+  height: 1.69,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+const john = {
+  fullName: 'John Smith',
+  mass: 92,
+  height: 1.95,
+  calcBMI: function () {
+    this.bmi = this.mass / this.height ** 2;
+    return this.bmi;
+  }
+};
+
+mark.calcBMI();
+john.calcBMI();
+
+console.log(mark.bmi, john.bmi);
+
+if (mark.bmi > john.bmi) {
+  console.log(`${mark.fullName}'s BMI (${mark.BMI}) is higher than ${john.fullName}'s BMI (${john.bmi})`)
+} else if (john.bmi > mark.bmi) {
+  console.log(`${john.fullName}'s BMI (${john.bmi}) is higher than ${mark.fullName}'s BMI (${mark.bmi})`)
+
+}*/
+
+// console.log('Lifting weights repetition 1 🏋️‍♂️');
+// console.log('Lifting weights repetition 2 🏋️‍♂️');
+// console.log('Lifting weights repetition 3 🏋️‍♂️');
+// console.log('Lifting weights repetition 4 🏋️‍♂️');
+// console.log('Lifting weights repetition 5 🏋️‍♂️');
+// console.log('Lifting weights repetition 6 🏋️‍♂️');
+// console.log('Lifting weights repetition 7 🏋️‍♂️');
+// console.log('Lifting weights repetition 8 🏋️‍♂️');
+// console.log('Lifting weights repetition 9 🏋️‍♂️');
+// console.log('Lifting weights repetition 10 🏋️‍♂️');
+
+
+for (let rep = 1; rep <= 40; rep++) {
+  console.log(`Lifting weights repetition 1 ${rep}🏋️‍♂️`);
+
+}
